@@ -1,0 +1,34 @@
+This program was written to facilitate conversion of a program written on the website 'sim8085.com' to 8085-executable opcodes.
+Thus, it is meant only for converting 'sim8085.com' programs into their opcode versions, and some formatting of the input programs is still needed.
+
+===========================================================================================
+
+Some conventions to be followed for the input program file:
+
+1. There must always be a space given after a comma (,).
+
+2. The default number system followed by the program is hexadecimal, i.e, do NOT specify 'H' after any operand to indicate that it is a hexadecimal number.
+Also, always use uppercase alphabets for hexadecimal numbers.
+
+3. Labels must contain at least one lowercase alphabet, and NO special characters, NO spaces. Digits are allowed.
+
+4. While labelling a certain line in the program, it must be in the format "label: mnemonic", i.e, first the label, then a ':', followed by a space and then the mnemonics.
+
+5. A sample program '8-bit-addition.txt' is provided for reference. It follows all the above conventions.
+
+===========================================================================================
+
+How to use the program:
+
+1. Let your mnemonic input file be 'yourfile.txt'.
+
+2. Run the program.
+
+3. If your file is present in the same directory as this program, just enter the name of the file: 'yourfile.txt'.
+If 'yourfile.txt' is present in a different directory, specify the absolute path to 'yourfile.txt', example: 'C:\Users\user\Desktop\yourfile.txt'.
+
+4. Enter the starting address of the program in hexadecimal, example: '6100'.
+This will be the address of the first line of opcode in the program.
+
+5. Now the program will generate a file named 'yourfile_opcode.txt' in the directory in which 'yourfile.txt' exists.
+It will contain the opcode version of your mnemonics-based input program.

@@ -1,0 +1,15 @@
+LXI H, 6000
+MVI C, 00
+
+MOV A, M
+INX H
+ADD M
+
+JNC nocarry
+INR C
+
+nocarry: INX H
+MOV M, A
+INX H
+MOV M, C
+HLT
