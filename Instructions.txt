@@ -10,7 +10,7 @@ Some conventions to be followed for the input program file:
 2. The default number system followed by the program is hexadecimal, i.e, do NOT specify 'H' after any operand to indicate that it is a hexadecimal number.
 Also, always use uppercase alphabets for hexadecimal numbers.
 
-3. Labels must contain at least one lowercase alphabet, and NO special characters, NO spaces. Digits are allowed.
+3. Labels must contain at least one lowercase alphabet, NO uppercase alphabets, and NO special characters, NO spaces. Digits are allowed.
 
 4. While labelling a certain line in the program, it must be in the format "label: mnemonic", i.e, first the label, then a ':', followed by a space and then the mnemonics.
 
