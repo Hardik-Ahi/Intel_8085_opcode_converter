@@ -1,8 +1,8 @@
-# 8085 opcode converter
+# Intel 8085 opcode converter
 
 ## What is it?
 
-This program is an 8085 mnemonics-to-opcode converter. It was written specifically for converting the mnemonics-based programs written on the website 'sim8085.com'
+This program is an Intel 8085 mnemonics-to-opcode converter. It was written specifically for converting the mnemonics-based programs written on the website 'sim8085.com'
 to the corresponding opcode version, so that if one has access to a working 8085 trainer kit, they can focus purely on the logic and flow of their programs without
 needing to manually convert each instruction to opcode.
 
