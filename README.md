@@ -4,6 +4,8 @@ A Python script for converting Intel 8085 assembly mnemonics into executable opc
 
 This program was written primarily for converting programs written on `sim8085.com` into their opcode equivalents, making it easier to load and test programs on real 8085 trainer kits.
 
+[Watch Demo on YouTube](https://youtu.be/fTSQVAivpOs)
+
 ## Why This Exists
 
 In many educational 8085 trainer kits, entering mnemonic instructions directly can be inconvenient. Some kits require restarting the entire program entry process if even a small mistake is made.
